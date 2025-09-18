@@ -28,6 +28,7 @@ import config from '../config/config';
       inject: [ConfigService],
     }),
     AuthModule,
+    EventsModule,
   ],
   controllers: [],
   providers: [],
