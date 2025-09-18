@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { AuthModule } from './auth/auth.module';
+import { EventsModule } from './events/events.module';
 import { JwtModule } from '@nestjs/jwt';
 import config from '../config/config';
 
